@@ -1,0 +1,12 @@
+
+
+git is code oriented and a software projects implies many files
+google docs as its name says is document oriented and so far interested in changes of one document
+
+view history of files 
+git log list all the commits with their comment - a comment indicates what is the reason of the commit
+git diff can be use to see the differences between repository version2 and version3 listing all add and deletion for each file
+
+git checkout <commitId>  replace all the files in the version given by the commitId - so you can experiment change and always get back to a version that worked.
+
+i will use git with bitbucket to save my generation project and access it from different host i use to continue working on
