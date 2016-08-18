@@ -1,0 +1,13 @@
+
+initialize a repository (git init)  creates the hidden directory .git for git to manage version control for this directory (becoming a repository)
+and that's all - I have to explicitly commit the files I wanted git to manage - good thing because all files aren't to be 
+managed (i.e generated files from model for example)
+
+how is the staging area different from working directory and repository
+it's a tracker of files to commit not a real directory
+
+git add <filename>  add the file to the staging area
+git reset <filename> remove the file from the staging area
+
+
+
