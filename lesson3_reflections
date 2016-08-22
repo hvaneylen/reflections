@@ -4,3 +4,6 @@ git push <remoteNameBranch> <local branch name> push the local commits from loca
 
 When would you want to use a remote repository rather than keeping all your work local?
 every time because it allows me to save my work on the cloud - and sharing it with others if needed.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+pull changes can interfer with my own changes so it's better to have hand on it instead of having it done automagically.
