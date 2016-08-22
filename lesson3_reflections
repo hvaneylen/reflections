@@ -1,0 +1,6 @@
+git remote add <remoteNameBranch> <remoteUrl>  -> create a remote link between local and server
+git remote -v -> more infos on remotes linked
+git push <remoteNameBranch> <local branch name> push the local commits from local to remote
+
+When would you want to use a remote repository rather than keeping all your work local?
+every time because it allows me to save my work on the cloud - and sharing it with others if needed.
