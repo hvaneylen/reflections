@@ -9,5 +9,35 @@ it's a tracker of files to commit not a real directory
 git add <filename>  add the file to the staging area
 git reset <filename> remove the file from the staging area
 
+git commit (launch notepad to enter comments -> save -> close notepad to get back to the command
+git commit -m <message> is another way without using the text editor configured. 
+There is style guide to good commit message ! (see http://udacity.github.io/git-styleguide/)
+
+git diff -> diff between working and sate area
+git diff --staged  diff between stage area and repository
+
+using the stage area to have one logical change by commit ?
+
+git branch -> shows all the branches
+git branch <branchname> -> create branch
+git checkout <branchname> -> switch to branch
+git checkout -b <new_branchname> -> create and switch to the branch (and keep the modification in the branch)
+git branch -d <branchname>  delete the branch
+
+git log --graph --oneline master (on branch coins for example) -> shows commits and branches graph
+
+git show <commit id>>  -> show the modification taken by the commit from its parent commit.
+
+what are the situations where branches are helpful ? -> to experiment somme new code or architecture.
+
+If I checkout a commit name 1d2.. and then make changes and commit them - I will create a new Commit not included in a branch but with having for parent 1d2...
+If I checkout another commit say 6h2... then all my commited changes will be lost - this commit was unreachable !
+If I want to create a branch from my committed change - I need to type : git checkout -b <new branch name>
+
+
+A graph visualization is great to understand the concept and relations between commits and branches.
+
+automatic merging is a facility but can lead to not understand what happens - I prefer manually supervised merging
+
 
 
